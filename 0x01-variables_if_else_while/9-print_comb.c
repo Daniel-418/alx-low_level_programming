@@ -1,12 +1,10 @@
 #include <stdio.h>
 /**
-  * main: Prints all possible combinations of single
-  *		digit numbers.
-  *
-  * @void: The main function takes no argument
+  * main - Prints all the combinations of single digit numbers
   *
   * Return: 0 (Always successful)
   */
+
 int main(void)
 {
 	int i;
@@ -20,6 +18,7 @@ int main(void)
 
 		putchar(',');
 		putchar(' ');
+		putchar('\n');
 	}
 
 	return (0);

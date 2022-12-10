@@ -1,12 +1,10 @@
 #include <stdio.h>
-
 /**
-  * main - Prints all the numbers of base 16 in lowercase
-  *
-  * @void: no arguments are passed to this function
+  * main - Prints all the single digit numbers of base 10
   *
   * Return: 0 (Always successful)
   */
+
 int main(void)
 {
 	int i;
