@@ -1,5 +1,4 @@
-int _putchar(char c);
-
+#include "main.h"
 /**
   * main - prints "putchar" followed by a new line
   * @void: It doesn't take any argument
