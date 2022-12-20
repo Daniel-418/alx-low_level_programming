@@ -1,7 +1,7 @@
 #include "main.h"
 void swap_char(char *a, char *b);
 int _strlen(char *s);
-/** 
+/**
  * rev_string - reverses a string
  * @s: the string to be reversed
  *
@@ -16,7 +16,7 @@ void rev_string(char *s)
 
 	for (i = 0; i < (size / 2); i++)
 	{
-		swap_char((s+i), (s + (size - (i + 1))));
+		swap_char((s + i), (s + (size - (i + 1))));
 	}
 }
 
