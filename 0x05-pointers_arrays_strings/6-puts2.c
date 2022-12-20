@@ -6,7 +6,7 @@
  *
  * Return: void (This function returns no value)
  */
-void _puts(char *str)
+void puts2(char *str)
 {
 	while (*str != '\0')
 	{
