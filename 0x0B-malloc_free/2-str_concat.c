@@ -47,7 +47,7 @@ int strlength(char *s)
 {
 	int i;
 	
-	if (s == NULL)
+	if (s == 0)
 		return (0);
 
 	while (s[i] != '\0')
