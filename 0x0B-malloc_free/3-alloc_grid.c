@@ -27,7 +27,7 @@ int **alloc_grid(int width, int height)
 
 		if (*(newarray + i) == 0)
 		{
-			for(k = 0; k < i; k++)
+			for (k = 0; k < i; k++)
 				free(newarray[k]);
 			free(newarray);
 			return (0);
