@@ -16,14 +16,14 @@ char *str_concat(char *s1, char *s2)
 	int i, j, s1length, s2length;
 
 	if (s1 == 0)
-		*s1 = '\0';
+		s1 = "";
 	if (s2 == 0)
-		*s2 = '\0';
+		s2 = "";
 
 	s1length = strlength(s1);
 	s2length = strlength(s2);
 
-	newstring = malloc((sizeof(char) * (s1length + s2length)) + 2);
+	newstring = malloc((sizeof(char) * (s1length + s2length)) + 1);
 
 	if (newstring == 0)
 		return (0);
