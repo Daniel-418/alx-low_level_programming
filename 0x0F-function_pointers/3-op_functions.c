@@ -37,10 +37,10 @@ int op_sub(int a, int b)
  */
 int op_mul(int a, int b)
 {
-	return (a * b); 
+	return (a * b);
 }
 
-/** 
+/**
  * op_div - divides two integers
  * @a: the first integer
  * @b: the second integer
