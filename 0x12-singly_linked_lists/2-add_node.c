@@ -35,8 +35,7 @@ list_t *add_node(list_t **head, const char *str)
  * _strlen - calculates the length of a string
  * @str: the string to be calculated
  *
- * Return: the length of the string
- */
+ * Return: the length of the str */
 unsigned int _strlen(char *str)
 {
 	unsigned int count;
