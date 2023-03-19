@@ -1,1 +1,1 @@
-Folder for the __0x17. C - Doubly linked lists__ project
+This is the readme file for this project
