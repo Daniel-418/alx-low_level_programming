@@ -7,7 +7,7 @@ void print_linked_list(hash_node_t *linkedlist, int last);
  */
 void hash_table_print(const hash_table_t *ht)
 {
-	long unsigned int i;
+	unsigned long int i;
 	int flag;
 	hash_node_t *temp;
 
