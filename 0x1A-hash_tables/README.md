@@ -1,1 +1,1 @@
-README for the hash table project on ALX
+Folder for the Hash Table project in ALX
