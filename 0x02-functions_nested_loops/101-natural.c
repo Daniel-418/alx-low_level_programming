@@ -5,7 +5,7 @@
  * main - prints out all the sums of 3 and 5
  * @void: This function takes no arguments
  *
- * @Return: 0 if successful, 1 if fail
+ * Return: 0 if successful, 1 if fail
  */
 int main(void)
 {
