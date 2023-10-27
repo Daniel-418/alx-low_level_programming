@@ -11,15 +11,10 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int decimalNumber;
-	int stringLength;
 	int i;
 
 	if (b == NULL)
 		return (0);
-
-	stringLength = 0;
-	while (b[stringLength] != '\0')
-		stringLength++;
 
 	decimalNumber = 0;
 	for (i = 0; b[i] != '\0'; i++)
@@ -30,8 +25,6 @@ unsigned int binary_to_uint(const char *b)
 			decimalNumber = (decimalNumber << 1) | 1;
 		else
 			return (0);
-
-		stringLength--;
 	}
 
 	return (decimalNumber);
