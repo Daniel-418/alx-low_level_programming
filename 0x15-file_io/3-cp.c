@@ -97,10 +97,10 @@ int main(int argc, char *argv[])
 	check_args(argc);
 
 	file_from = open(argv[1], O_RDONLY);
-	check_read(file_from, argv[1], file_from, file_to);
+	check_read(file_from, argv[1], -1, -1);
 
 	file_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
-	check_write(file_to, argv[2], file_from, file_to);
+	check_write(file_to, argv[2], file_from, -1);
 
 	bytes_read = 1;
 	while (bytes_read != 0)
