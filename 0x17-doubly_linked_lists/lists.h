@@ -3,6 +3,7 @@
 
 #include <stddef.h>
 #include <stdio.h>
+#include <stdlib.h>
 /** struct for a node of the double linked list **/
 /**
  * struct dlistint_s - double linked list
@@ -23,4 +24,5 @@ typedef struct dlistint_s
 /** functions **/
 size_t print_dlistint(const dlistint_t *h);
 size_t dlistint_len(const dlistint_t *h);
+dlistint_t *add_dnodeint(dlistint_t **head, int n);
 #endif
